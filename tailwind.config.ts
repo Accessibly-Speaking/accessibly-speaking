@@ -69,20 +69,6 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				},
-				// Iowa-inspired accessible yellows
-				iowa: {
-					DEFAULT: '#FFCD00',
-					50: '#FFFEF0',
-					100: '#FFFADB',
-					200: '#FFF2B8',
-					300: '#FFE685',
-					400: '#FFD700',
-					500: '#FFCD00',
-					600: '#F5B800',
-					700: '#E6A800',
-					800: '#CC9600',
-					900: '#B8860B'
 				}
 			},
 			borderRadius: {

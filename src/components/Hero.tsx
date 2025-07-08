@@ -13,7 +13,7 @@ const Hero = () => {
               className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight"
             >
               Making Digital <span className="relative inline-block">
-                <span className="absolute -top-1 -left-1 w-full h-full bg-iowa-500/20 -z-10 transform -skew-x-3 skew-y-1 rounded"></span>
+                <span className="absolute -top-1 -left-1 w-full h-full bg-gray-200 -z-10 transform -skew-x-3 skew-y-1 rounded"></span>
                 <span className="relative z-10">Accessibility</span>
               </span> the Standard
             </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4 pt-4">
               <Button 
                 variant="outline" 
-                className="border-black text-black hover:bg-iowa-500 hover:text-black hover:border-iowa-600 rounded-full px-8 py-6 text-lg flex items-center gap-2 transition-all duration-200"
+                className="border-black text-black hover:bg-black hover:text-white rounded-full px-8 py-6 text-lg flex items-center gap-2 transition-all duration-200"
                 onClick={() => window.location.href = '#about'}
                 aria-label="Learn more about our services"
               >
@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="relative z-10 bg-white p-6 border-2 border-black rounded-lg shadow-iowa">
+            <div className="relative z-10 bg-white p-6 border-2 border-black rounded-lg shadow-custom">
               <img 
                 src="/lovable-uploads/127fef2f-6ac5-4325-95ec-8a5076c4f48a.png"
                 alt="Illustration of a virtual meeting showing accessibility consultation"
