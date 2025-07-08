@@ -1,3 +1,4 @@
+
 import { Mail, Github, Linkedin, X, ArrowUpRight } from "lucide-react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
@@ -19,25 +20,25 @@ const Footer = () => {
               <a 
                 href="https://x.com/AccessiblyS" 
                 aria-label="X" 
-                className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors"
+                className="p-2 bg-iowa-500 text-black rounded-full hover:bg-iowa-600 transition-colors"
               >
                 <X className="h-5 w-5" />
               </a>
               <a 
                 href="https://www.linkedin.com/company/accessibly-speaking/" 
                 aria-label="LinkedIn" 
-                className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors"
+                className="p-2 bg-iowa-500 text-black rounded-full hover:bg-iowa-600 transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="mailto:info@accessiblyspeaking.org" aria-label="Email" className="p-2 bg-white text-black rounded-full hover:bg-gray-200 transition-colors">
+              <a href="mailto:info@accessiblyspeaking.org" aria-label="Email" className="p-2 bg-iowa-500 text-black rounded-full hover:bg-iowa-600 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-6 border-b border-gray-600 pb-2">Subscribe to Newsletter</h3>
+            <h3 className="text-lg font-bold mb-6 border-b border-iowa-600 pb-2">Subscribe to Newsletter</h3>
             <p className="text-gray-300 mb-4">
               Stay updated with new accessibility tips, free resources, and advocacy opportunities.
             </p>
@@ -45,10 +46,10 @@ const Footer = () => {
               <Input 
                 type="email" 
                 placeholder="Enter your email" 
-                className="rounded-r-none border-white/20 bg-white/10 text-white placeholder:text-gray-400 focus:border-white/30 hover:border-white/30"
+                className="rounded-r-none border-white/20 bg-white/10 text-white placeholder:text-gray-400 focus:border-iowa-500 hover:border-white/30"
               />
               <Button 
-                className="rounded-l-none bg-white text-black hover:bg-gray-200 transition-colors gap-2"
+                className="rounded-l-none bg-iowa-500 text-black hover:bg-iowa-600 transition-colors gap-2"
               >
                 Subscribe
                 <ArrowUpRight className="h-5 w-5" />
@@ -62,9 +63,9 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Accessibly Speaking. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a>
+            <a href="#" className="text-gray-400 hover:text-iowa-500 transition-colors">Privacy Policy</a>
+            <a href="#" className="text-gray-400 hover:text-iowa-500 transition-colors">Terms of Service</a>
+            <a href="#" className="text-gray-400 hover:text-iowa-500 transition-colors">Cookie Policy</a>
           </div>
         </div>
       </div>

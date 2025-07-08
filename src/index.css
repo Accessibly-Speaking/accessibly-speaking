@@ -9,6 +9,8 @@
     --foreground: 0 0% 0%;
     --primary: 0 0% 0%;
     --primary-foreground: 0 0% 100%;
+    --iowa-gold: 48 100% 50%;
+    --iowa-gold-dark: 43 100% 46%;
   }
 
   html {
@@ -28,7 +30,7 @@
 
   /* Improve accessibility */
   *:focus {
-    @apply outline-2 outline-offset-2 outline-black;
+    @apply outline-2 outline-offset-2 outline-iowa-600;
   }
 
   .sr-only {
@@ -50,9 +52,13 @@
     box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
   }
   
+  .shadow-iowa {
+    box-shadow: 5px 5px 0px 0px #FFCD00;
+  }
+  
   /* Focus state for inputs */
   input:focus, textarea:focus {
-    @apply ring-2 ring-black;
+    @apply ring-2 ring-iowa-600;
   }
 }
 
@@ -67,10 +73,9 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-400 rounded-full;
+  @apply bg-iowa-600 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-gray-500;
+  @apply bg-iowa-700;
 }
-

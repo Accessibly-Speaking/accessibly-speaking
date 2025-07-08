@@ -6,31 +6,31 @@ const initiatives = [
     title: "Free Accessibility Resources",
     description: "Curated articles, toolkits, and guides for creating accessible digital experiences available to everyone.",
     icon: BookOpen,
-    color: "bg-gray-100"
+    color: "bg-iowa-100"
   },
   {
     title: "Community Advocacy",
     description: "Promoting awareness about the importance of digital accessibility through content and social media campaigns.",
     icon: Megaphone,
-    color: "bg-gray-100"
+    color: "bg-iowa-100"
   },
   {
     title: "AI-Powered Experiments",
     description: "Exploring the intersection of AI and accessibility through free, public tools and demos for the community.",
     icon: Bot,
-    color: "bg-gray-100"
+    color: "bg-iowa-100"
   },
   {
     title: "Learning Materials",
     description: "Practical guides and checklists for designers, developers, and content creators to improve accessibility.",
     icon: FileText,
-    color: "bg-gray-100"
+    color: "bg-iowa-100"
   },
   {
     title: "Educational Workshops",
     description: "Free community workshops and learning sessions to spread accessibility knowledge and best practices.",
     icon: Users,
-    color: "bg-gray-100"
+    color: "bg-iowa-100"
   }
 ];
 
@@ -49,9 +49,9 @@ const Services = () => {
           {initiatives.map((initiative) => (
             <div 
               key={initiative.title} 
-              className="p-6 border-2 border-black rounded-lg bg-white hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all duration-300"
+              className="p-6 border-2 border-black rounded-lg bg-white hover:shadow-iowa hover:border-iowa-600 transition-all duration-300"
             >
-              <div className={`${initiative.color} p-4 rounded-full inline-flex mb-6`}>
+              <div className={`${initiative.color} border border-iowa-600 p-4 rounded-full inline-flex mb-6`}>
                 <initiative.icon className="h-8 w-8 text-black" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold mb-3">{initiative.title}</h3>
