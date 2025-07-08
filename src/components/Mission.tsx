@@ -1,3 +1,4 @@
+
 import { Target } from "lucide-react";
 
 const Mission = () => {
@@ -9,7 +10,7 @@ const Mission = () => {
           <h2 className="text-4xl font-bold mb-4">Our Mission & Vision</h2>
           <p className="text-xl max-w-3xl mx-auto">
             We're working toward a future where digital accessibility is the norm,
-            enabling individuals of all abilities to thrive in an inclusive digital economy.
+            creating an inclusive web where everyone can participate fully in our digital world.
           </p>
         </div>
         
@@ -17,14 +18,13 @@ const Mission = () => {
           <div className="p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
             <h3 className="text-2xl font-bold mb-4">Mission</h3>
             <p className="text-lg mb-4">
-              To empower businesses and professionals to achieve compliance with accessibility standards 
-              while fostering inclusive digital environments. 
+              To promote digital accessibility awareness and provide practical resources that 
+              empower individuals and organizations to build inclusive digital spaces.
             </p>
             <p className="text-lg">
-              We provide accessibility audits, consultations, and training workshops,
-              integrating cutting-edge solutions such as a Learning Management System (LMS) and an AI-powered
-              accessibility tool. Our goal is to promote inclusivity and bridge the accessibility gap for 
-              organizations with limited resources.
+              Through community engagement, educational content, and shared resources, we aim to 
+              make accessibility knowledge accessible to everyone, fostering a culture where 
+              inclusive design is the standard, not the exception.
             </p>
           </div>
           
@@ -33,23 +33,23 @@ const Mission = () => {
             <ul className="space-y-3 text-lg">
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">1</span>
-                <span>Educate small businesses and professionals on the importance of digital accessibility.</span>
+                <span>Share accessible design resources and tools with the community.</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">2</span>
-                <span>Provide scalable solutions for achieving compliance with global standards such as WCAG, ADA, and Section 508.</span>
+                <span>Educate on the importance of inclusive digital practices through content and conversations.</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">3</span>
-                <span>Foster a culture of inclusivity through advocacy and community engagement.</span>
+                <span>Foster conversations around accessibility through social media and community events.</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">4</span>
-                <span>Establish partnerships with technology providers, advocacy groups, and educational institutions.</span>
+                <span>Highlight community efforts and innovative solutions in the accessibility space.</span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">5</span>
-                <span>Develop and sustain revenue streams to fund the nonprofit's operations and growth.</span>
+                <span>Build partnerships with advocates, educators, and accessibility champions worldwide.</span>
               </li>
             </ul>
           </div>
