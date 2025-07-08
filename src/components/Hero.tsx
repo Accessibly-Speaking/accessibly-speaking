@@ -34,8 +34,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 bg-white p-6 border-2 border-black rounded-lg shadow-custom">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                alt="Person using laptop computer, representing digital accessibility and inclusive design"
+                src="/lovable-uploads/45c53701-62c6-4fe3-a9c7-6f58e0dbe0ce.png"
+                alt="Illustration of a person viewing digital content on a browser, representing digital accessibility"
                 className="w-full h-auto rounded-lg"
                 loading="eager"
                 width="600"
