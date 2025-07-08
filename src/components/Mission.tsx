@@ -47,10 +47,6 @@ const Mission = () => {
                 <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">4</span>
                 <span>Highlight community efforts and innovative solutions in the accessibility space.</span>
               </li>
-              <li className="flex items-start">
-                <span className="inline-block bg-black text-white rounded-full w-6 h-6 flex-shrink-0 flex items-center justify-center mr-3 mt-1">5</span>
-                <span>Build partnerships with advocates, educators, and accessibility champions worldwide.</span>
-              </li>
             </ul>
           </div>
         </div>
