@@ -59,7 +59,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6 border-b border-gray-600 pb-2">Subscribe to Newsletter</h3>
             <p className="text-gray-300 mb-4">
-              Stay updated with our latest accessibility insights and resources.
+              Stay updated with new accessibility tips, free resources, and advocacy opportunities.
             </p>
             <div className="flex">
               <Input 
