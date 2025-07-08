@@ -3,7 +3,7 @@ import { FileText, Book, Video, Link as LinkIcon, GraduationCap, Award, Wrench, 
 
 const resourceCategories = [
   {
-    title: "📑 Accessibility Guidelines",
+    title: "Accessibility Guidelines",
     description: "Start here with essential guidelines and official standards for creating accessible digital experiences.",
     icon: FileText,
     resources: [
@@ -12,7 +12,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "🎓 Online Courses",
+    title: "Online Courses",
     description: "Explore beginner-friendly and advanced online courses to deepen your knowledge of digital accessibility best practices.",
     icon: GraduationCap,
     resources: [
@@ -29,7 +29,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "📝 Articles",
+    title: "Articles",
     description: "Read insightful articles and research papers covering accessibility techniques, industry trends, and personal advocacy stories.",
     icon: FileText,
     resources: [
@@ -42,7 +42,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "✍️ Blogs",
+    title: "Blogs",
     description: "Follow passionate accessibility advocates and experts sharing insights, tutorials, and personal experiences.",
     icon: Book,
     resources: [
@@ -59,7 +59,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "📚 Books",
+    title: "Books",
     description: "Recommended books offering practical guidance on accessible digital design and inclusive product development.",
     icon: Book,
     resources: [
@@ -72,7 +72,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "📺 YouTube Channels",
+    title: "YouTube Channels",
     description: "Watch engaging video content on digital accessibility topics, interviews, and tutorials.",
     icon: Video,
     resources: [
@@ -83,7 +83,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "🏅 Certifications",
+    title: "Certifications",
     description: "Advance your professional credentials with these recognized accessibility certification programs.",
     icon: Award,
     resources: [
@@ -92,7 +92,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "🛠️ Tools",
+    title: "Tools",
     description: "Free tools and browser extensions to help you evaluate and improve the accessibility of websites and applications.",
     icon: Wrench,
     resources: [
@@ -109,7 +109,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "🖥️ Assistive Technologies",
+    title: "Assistive Technologies",
     description: "Learn about popular assistive technologies that enhance digital access for users with disabilities.",
     icon: Monitor,
     resources: [
@@ -123,7 +123,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "🌍 Organizations & Communities",
+    title: "Organizations & Communities",
     description: "Connect with accessibility communities, advocacy groups, and professional networks.",
     icon: Globe,
     resources: [
@@ -135,7 +135,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "🐦 X (Twitter) Handles to Follow",
+    title: "X (Twitter) Handles to Follow",
     description: "Stay inspired by following accessibility advocates, educators, and organizations on social media.",
     icon: Twitter,
     resources: [
@@ -148,7 +148,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "📅 Conferences & Events",
+    title: "Conferences & Events",
     description: "Keep up with accessibility conferences and awareness days to learn, network, and grow your expertise.",
     icon: Calendar,
     resources: [
@@ -163,7 +163,7 @@ const resourceCategories = [
     ]
   },
   {
-    title: "📌 Job Boards",
+    title: "Job Boards",
     description: "Find job opportunities in the accessibility and inclusive design space.",
     icon: Briefcase,
     resources: [
