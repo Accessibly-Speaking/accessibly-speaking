@@ -1,4 +1,3 @@
-
 import { Menu, Users, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
@@ -58,7 +57,7 @@ const Header = () => {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <a href="mailto:contact@accessiblyspeaking.com" className="text-black hover:text-gray-700 transition-colors font-medium">Contact</a>
+            <a href="mailto:accessiblyspeaking@gmail.com" className="text-black hover:text-gray-700 transition-colors font-medium">Contact</a>
           </nav>
 
           <Button 
@@ -94,7 +93,7 @@ const Header = () => {
                 </a>
               </div>
             </div>
-            <a href="mailto:contact@accessiblyspeaking.com" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Contact</a>
+            <a href="mailto:accessiblyspeaking@gmail.com" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Contact</a>
           </nav>
         </div>
       )}

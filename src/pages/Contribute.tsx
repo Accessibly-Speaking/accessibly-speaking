@@ -58,7 +58,7 @@ const Contribute = () => (
           
           <div className="mt-8">
             <a 
-              href="mailto:contact@accessiblyspeaking.com" 
+              href="mailto:accessiblyspeaking@gmail.com" 
               className="inline-flex items-center px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"
               aria-label="Email us to contribute to the community"
             >
