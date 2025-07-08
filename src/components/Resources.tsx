@@ -1,3 +1,4 @@
+
 import { FileText, Book, Video, Link as LinkIcon, GraduationCap, Award, Wrench, Monitor, Globe, Twitter, Calendar, Briefcase } from "lucide-react";
 
 const resourceCategories = [
@@ -6,7 +7,7 @@ const resourceCategories = [
     description: "Start here with essential guidelines and official standards for creating accessible digital experiences.",
     icon: FileText,
     resources: [
-      { title: "Web Content Accessibility Guidelines (WCAG)", link: "https://www.w3.org/WAI/WCAG21/quickref/" },
+      { title: "Web Content Accessibility Guidelines (WCAG)", link: "https://www.w3.org/WAI/standards-guidelines/wcag/" },
       { title: "Web Accessibility In Mind (WebAIM) Checklist", link: "https://webaim.org/standards/wcag/checklist" }
     ]
   },
@@ -15,16 +16,19 @@ const resourceCategories = [
     description: "Explore beginner-friendly and advanced online courses to deepen your knowledge of digital accessibility best practices.",
     icon: GraduationCap,
     resources: [
-      { title: "Accessibility Fundamentals", link: "#" },
-      { title: "Accessible Layout for the Web", link: "#" },
-      { title: "An Introduction to Accessibility and Inclusive Design", link: "#" },
-      { title: "Auditing React Apps for Accessibility", link: "#" },
-      { title: "Explore Accessibility (a11y) Best Practices", link: "#" },
-      { title: "Google Web Accessibility - Udacity", link: "#" },
-      { title: "Learn Accessibility", link: "#" },
-      { title: "Test Accessibility of Your Design with WAVE", link: "#" },
-      { title: "Web Accessibility Compliance", link: "#" },
-      { title: "W3Cx: Introduction to Web Accessibility", link: "#" }
+      { title: "Accessibility Fundamentals", link: "https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/" },
+      { title: "Accessible Layout for the Web", link: "https://www.linkedin.com/learning/accessible-layout-for-the-web/creating-accessible-web-layout-for-a-diverse-audience?u=125113850" },
+      { title: "An Introduction to Accessibility and Inclusive Design", link: "https://www.coursera.org/learn/accessibility" },
+      { title: "Auditing React Apps for Accessibility", link: "https://egghead.io/courses/auditing-react-apps-for-accessibility-08733265" },
+      { title: "Explore Accessibility (a11y) Best Practices", link: "https://www.linkedin.com/learning/paths/explore-accessibility-a11y-best-practices?u=125113850" },
+      { title: "Get Started with Web Accessibility", link: "https://trailhead.salesforce.com/content/learn/trails/get-started-with-web-accessibility" },
+      { title: "Google Web Accessibility - Udacity", link: "https://www.udacity.com/course/web-accessibility--ud891" },
+      { title: "Introduction to Accessible Web Development", link: "https://www.coursera.org/projects/introduction-to-accessible-web-development" },
+      { title: "Learn Accessibility", link: "https://web.dev/learn/accessibility/" },
+      { title: "Test Accessibility of Your Design with WAVE", link: "https://www.coursera.org/projects/test-accessibility-design-wave" },
+      { title: "Web Accessibility Compliance", link: "https://teamtreehouse.com/library/web-accessibility-compliance" },
+      { title: "Website Accessibility, v2", link: "https://frontendmasters.com/courses/accessibility-v2/" },
+      { title: "W3Cx: Introduction to Web Accessibility", link: "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility" }
     ]
   },
   {
@@ -32,12 +36,13 @@ const resourceCategories = [
     description: "Read insightful articles and research papers covering accessibility techniques, industry trends, and personal advocacy stories.",
     icon: FileText,
     resources: [
-      { title: "Evaluating Public Health Website Accessibility", link: "#" },
-      { title: "Inclusive Design: Web Accessibility for Nonprofits", link: "#" },
-      { title: "Smashing Magazine Accessibility Articles", link: "#" },
-      { title: "Understanding the Importance of Web Accessibility", link: "#" },
+      { title: "Evaluating Public Health Website Accessibility", link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7838847/" },
+      { title: "Inclusive Design: Web Accessibility for Nonprofits", link: "https://www.macfound.org/about/how-we-work/diversity-equity-inclusion/inclusive-design/call-to-action" },
+      { title: "Smashing Magazine Accessibility Articles", link: "https://www.smashingmagazine.com/category/accessibility/" },
+      { title: "Understanding the Importance of Web Accessibility", link: "https://www.forbes.com/sites/forbesbusinesscouncil/2023/03/20/understanding-the-importance-of-web-accessibility/?sh=439f1b65377f" },
+      { title: "Web Accessibility: The Ultimate Guide", link: "https://blog.hubspot.com/website/web-accessibility" },
       { title: "WebAIM Articles", link: "https://webaim.org/articles/" },
-      { title: "Digital Accessibility within Computational Media", link: "#" }
+      { title: "Digital Accessibility within Computational Media", link: "https://medium.com/processing-foundation/digital-accessibility-within-computational-media-a4e8ec3239a0" }
     ]
   },
   {
@@ -45,16 +50,17 @@ const resourceCategories = [
     description: "Follow passionate accessibility advocates and experts sharing insights, tutorials, and personal experiences.",
     icon: Book,
     resources: [
-      { title: "Accessibility Made Easy", link: "#" },
-      { title: "A11y Collective Blog", link: "#" },
-      { title: "A11y Matters", link: "#" },
-      { title: "A11y with Lindsey", link: "#" },
-      { title: "Carie Fisher's Blog", link: "#" },
-      { title: "Deque Blog", link: "#" },
-      { title: "Marcy Sutton's Blog", link: "#" },
-      { title: "Scott O'Hara's Blog", link: "#" },
-      { title: "TPGi Business & Technical Blog", link: "#" },
-      { title: "WebAIM Blog", link: "#" }
+      { title: "Accessibility Made Easy", link: "https://www.accessibilityeasy.com/blog" },
+      { title: "A11y Collective Blog", link: "https://www.a11y-collective.com/blog/" },
+      { title: "A11y Matters", link: "https://www.a11ymatters.com/" },
+      { title: "A11y with Lindsey", link: "https://www.a11ywithlindsey.com/blog/" },
+      { title: "Carie Fisher's Blog", link: "https://cariefisher.com/" },
+      { title: "Deque Blog", link: "https://www.deque.com/blog/" },
+      { title: "Marcus's Blog", link: "https://marcus.io/blog" },
+      { title: "Sara Soueidan's Blog", link: "https://www.sarasoueidan.com/blog/" },
+      { title: "Scott O'Hara's Blog", link: "https://www.scottohara.me/writing/" },
+      { title: "TPGi Business & Technical Blog", link: "https://developer.paciellogroup.com/blog/" },
+      { title: "WebAIM Blog", link: "https://webaim.org/blog/" }
     ]
   },
   {
@@ -62,12 +68,13 @@ const resourceCategories = [
     description: "Recommended books offering practical guidance on accessible digital design and inclusive product development.",
     icon: Book,
     resources: [
-      { title: "Accessibility for Everyone", link: "#" },
-      { title: "Accessibility Handbook", link: "#" },
-      { title: "Accessible Accessibility: Planning for Success", link: "#" },
-      { title: "Inclusive Design for a Digital World", link: "#" },
-      { title: "Web Accessibility Cookbook", link: "#" },
-      { title: "Web and App Accessibility: A Roadmap to Digital Inclusion", link: "#" }
+      { title: "Accessibility for Everyone", link: "https://www.oreilly.com/library/view/accessibility-for-everyone/9781492017936/?_gl=1*3r09wr*_ga*NDk5OTkwMDk4LjE3MTY0Mjc0MTA.*_ga_092EL089CH*MTcxNjQyNzQwOS4xLjEuMTcxNjQyNzQ3Ny41OS4wLjA." },
+      { title: "Accessibility Handbook", link: "https://www.oreilly.com/library/view/accessibility-handbook/9781449322847/?_gl=1*10gxjk8*_ga*NDk5OTkwMDk4LjE3MTY0Mjc0MTA.*_ga_092EL089CH*MTcxNjQyNzQwOS4xLjEuMTcxNjQyNzY4Ny42MC4wLjA." },
+      { title: "Approachable Accessibility: Planning for Success", link: "https://www.oreilly.com/library/view/approachable-accessibility-planning/9781484248812/?_gl=1*1f41x7p*_ga*NDk5OTkwMDk4LjE3MTY0Mjc0MTA.*_ga_092EL089CH*MTcxNjQyNzQwOS4xLjEuMTcxNjQyNzU1OS4zNy4wLjA." },
+      { title: "Inclusive Design for a Digital World", link: "https://www.oreilly.com/library/view/inclusive-design-for/9781484250167/?_gl=1*p8m0au*_ga*NDk5OTkwMDk4LjE3MTY0Mjc0MTA.*_ga_092EL089CH*MTcxNjQyNzQwOS4xLjEuMTcxNjQyNzUyMS4xNS4wLjA." },
+      { title: "Practical Web Accessibility: A Comprehensive Guide to Digital Inclusion", link: "https://www.oreilly.com/library/view/practical-web-accessibility/9798868801525/?_gl=1*sqr9ju*_ga*NDk5OTkwMDk4LjE3MTY0Mjc0MTA.*_ga_092EL089CH*MTcxNjQyNzQwOS4xLjEuMTcxNjQyNzc0Mi41LjAuMA.." },
+      { title: "Web Accessibility Cookbook", link: "https://www.oreilly.com/library/view/web-accessibility-cookbook/9781098145590/?_gl=1*klafp2*_ga*NDk5OTkwMDk4LjE3MTY0Mjc0MTA.*_ga_092EL089CH*MTcxNjQyNzQwOS4xLjEuMTcxNjQyNzY0My4zMi4wLjA." },
+      { title: "Web and App Accessibility: Your Roadmap to Digital Inclusion", link: "https://info.usablenet.com/web-and-app-accessibility" }
     ]
   },
   {
@@ -75,10 +82,10 @@ const resourceCategories = [
     description: "Watch engaging video content on digital accessibility topics, interviews, and tutorials.",
     icon: Video,
     resources: [
-      { title: "Africa Kenya", link: "#" },
-      { title: "Carrie on Accessibility", link: "#" },
-      { title: "The Accessibility Guy", link: "#" },
-      { title: "WebAIM YouTube Channel", link: "#" }
+      { title: "Africa Kenyah", link: "https://www.youtube.com/@africakenyah" },
+      { title: "Carrie on Accessibility", link: "https://www.youtube.com/channel/UCraSGW8s4NMaFKrJ5YbjB4w" },
+      { title: "The Accessibility Guy", link: "https://www.youtube.com/c/TheAccessibilityGuy" },
+      { title: "WebAIM YouTube Channel", link: "https://www.youtube.com/channel/UCmlP2d_ApoIoAfEHiMQKLpw" }
     ]
   },
   {
@@ -86,8 +93,7 @@ const resourceCategories = [
     description: "Advance your professional credentials with these recognized accessibility certification programs.",
     icon: Award,
     resources: [
-      { title: "International Association of Accessibility Professionals (IAAP)", link: "#" },
-      { title: "Department of Homeland Security (DHS) Trusted Tester", link: "#" }
+      { title: "International Association of Accessibility Professionals (IAAP)", link: "https://www.accessibilityassociation.org/s/certification" }
     ]
   },
   {
@@ -95,16 +101,16 @@ const resourceCategories = [
     description: "Free tools and browser extensions to help you evaluate and improve the accessibility of websites and applications.",
     icon: Wrench,
     resources: [
-      { title: "Accessibility Bookmarklets", link: "#" },
-      { title: "Accessibility Insights", link: "#" },
-      { title: "Axe Accessibility Testing Tool", link: "#" },
-      { title: "Axe Core", link: "#" },
-      { title: "a11y.css", link: "#" },
-      { title: "ChromeLens", link: "#" },
-      { title: "Color Contrast Checker", link: "#" },
-      { title: "Color Contrast Analyzer", link: "#" },
-      { title: "Pa11y", link: "#" },
-      { title: "WAVE Evaluation Tool", link: "#" }
+      { title: "Accessibility Bookmarklets", link: "https://accessibility-bookmarklets.org/" },
+      { title: "Accessibility Insights", link: "https://accessibilityinsights.io/" },
+      { title: "Axe Accessibility Testing Tool", link: "https://deque.com/axe/" },
+      { title: "Axe Core", link: "https://github.com/dequelabs/axe-core" },
+      { title: "a11y.css", link: "https://chromewebstore.google.com/detail/a11ycss/iolfinldndiiobhednboghogkiopppid?hl=ca" },
+      { title: "ChromeLens", link: "https://chromewebstore.google.com/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd?hl=en" },
+      { title: "Color Contrast Checker", link: "https://webaim.org/resources/contrastchecker/" },
+      { title: "Color Contrast Analyzer", link: "https://dequeuniversity.com/color-contrast" },
+      { title: "Pa11y", link: "https://pa11y.org/" },
+      { title: "WAVE Evaluation Tool", link: "https://wave.webaim.org/" }
     ]
   },
   {
@@ -112,13 +118,13 @@ const resourceCategories = [
     description: "Learn about popular assistive technologies that enhance digital access for users with disabilities.",
     icon: Monitor,
     resources: [
-      { title: "Android Accessibility Suite", link: "#" },
-      { title: "Assistive Labs", link: "#" },
-      { title: "Job Access with Speech (JAWS)", link: "#" },
-      { title: "NonVisual Desktop Access (NVDA)", link: "#" },
-      { title: "ChromeVox", link: "#" },
-      { title: "VoiceOver", link: "#" },
-      { title: "ZoomText", link: "#" }
+      { title: "Android Accessibility Suite", link: "https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback" },
+      { title: "Assistiv Labs", link: "https://assistivlabs.com/" },
+      { title: "Job Access with Speech (JAWS)", link: "https://www.freedomscientific.com/Products/software/JAWS/" },
+      { title: "NonVisual Desktop Access (NVDA)", link: "https://www.nvaccess.org/" },
+      { title: "ChromeVox", link: "https://support.google.com/chromebook/answer/7031755?hl=en" },
+      { title: "VoiceOver", link: "https://www.apple.com/accessibility/vision/" },
+      { title: "ZoomText", link: "https://www.freedomscientific.com/products/software/zoomtext/" }
     ]
   },
   {
@@ -127,10 +133,10 @@ const resourceCategories = [
     icon: Globe,
     resources: [
       { title: "The A11Y Project", link: "https://www.a11yproject.com/" },
-      { title: "International Association of Accessibility Professionals (IAAP)", link: "#" },
-      { title: "WebAIM Community Forum", link: "#" },
-      { title: "Web Accessibility Education Facebook Group", link: "#" },
-      { title: "A11Y Subreddit", link: "#" }
+      { title: "International Association of Accessibility Professionals (IAAP)", link: "https://www.accessibilityassociation.org/s/" },
+      { title: "WebAIM Community Forum", link: "https://webaim.org/community/" },
+      { title: "Web Accessibility Education Facebook Group", link: "https://www.facebook.com/groups/webaccessibilityeducation/" },
+      { title: "A11Y Subreddit", link: "https://www.reddit.com/r/a11y/" }
     ]
   },
   {
@@ -138,12 +144,12 @@ const resourceCategories = [
     description: "Stay inspired by following accessibility advocates, educators, and organizations on social media.",
     icon: Twitter,
     resources: [
-      { title: "AbilityNet", link: "#" },
-      { title: "Accessibility Awareness", link: "#" },
-      { title: "Accessibility Speaking", link: "#" },
-      { title: "Google Accessibility", link: "#" },
-      { title: "Margaux Joffe", link: "#" },
-      { title: "TPGi Interactive", link: "#" }
+      { title: "AbilityNet", link: "https://twitter.com/AbilityNet" },
+      { title: "Accessibility Awareness", link: "https://twitter.com/A11yAwareness" },
+      { title: "Accessibly Speaking", link: "https://twitter.com/AccessiblyS" },
+      { title: "Google Accessibility", link: "https://twitter.com/googleaccess" },
+      { title: "Margaux Joffe", link: "https://twitter.com/MargauxJoffe" },
+      { title: "TPGi Interactive", link: "https://twitter.com/TPGinteractive" }
     ]
   },
   {
@@ -151,14 +157,15 @@ const resourceCategories = [
     description: "Keep up with accessibility conferences and awareness days to learn, network, and grow your expertise.",
     icon: Calendar,
     resources: [
-      { title: "ACCESS", link: "#" },
-      { title: "Accessibility Club Conference", link: "#" },
-      { title: "Accessibility Summer Camp", link: "#" },
-      { title: "axe-con", link: "#" },
-      { title: "Global Accessibility Awareness Day", link: "#" },
-      { title: "ICT Accessibility Testing Symposium", link: "#" },
-      { title: "Inclusive Design 24", link: "#" },
-      { title: "TechAccess Oklahoma Conference", link: "#" }
+      { title: "ACCESS", link: "https://www.3playmedia.com/company/access-by-3play/" },
+      { title: "Accessibility Club Conference", link: "https://accessibility.club/" },
+      { title: "Accessibility Summer Camp", link: "https://www.accessibilityict.org/" },
+      { title: "axe-con", link: "https://www.deque.com/axe-con/" },
+      { title: "Global Accessibility Awareness Day", link: "https://accessibility.day/" },
+      { title: "ICT Accessibility Testing Symposium", link: "https://www.ictaccessibilitytesting.org/" },
+      { title: "Inclusive Design 24", link: "https://inclusivedesign24.org/2024/" },
+      { title: "TechAccess Oklahoma Conference", link: "https://techaccessok.org/" },
+      { title: "WordPress Accessibility Day", link: "https://wpaccessibility.day/" }
     ]
   },
   {
@@ -166,7 +173,7 @@ const resourceCategories = [
     description: "Find job opportunities in the accessibility and inclusive design space.",
     icon: Briefcase,
     resources: [
-      { title: "A11Y Jobs", link: "#" }
+      { title: "A11Y Jobs", link: "https://www.a11yjobs.com/" }
     ]
   }
 ];
