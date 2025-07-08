@@ -186,7 +186,7 @@ const Resources = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Resources</h2>
           <p className="text-xl max-w-3xl mx-auto">
-            Access our comprehensive collection of accessibility resources designed to help you create inclusive digital experiences.
+            Discover helpful resources, guides, and tools to make your digital projects more accessible and welcoming to all.
           </p>
         </div>
         
