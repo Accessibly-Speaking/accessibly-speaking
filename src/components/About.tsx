@@ -23,15 +23,15 @@ const About = () => {
             
             <div className="space-y-4">
               <div className="flex items-start">
-                <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
                 <p>Shared free resources and educational content with the community</p>
               </div>
               <div className="flex items-start">
-                <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
                 <p>Passionate advocate with hands-on experience in digital accessibility</p>
               </div>
               <div className="flex items-start">
-                <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
                 <p>Community-focused approach to spreading accessibility awareness</p>
               </div>
             </div>
@@ -42,23 +42,23 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-6">Our Core Values</h3>
               
               <div className="space-y-6">
-                <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Education</h4>
+                <div className="p-4 border border-purple-200 rounded-lg bg-purple-50">
+                  <h4 className="font-bold mb-2 text-purple-800">Education</h4>
                   <p>Making accessibility knowledge accessible and understandable for everyone.</p>
                 </div>
                 
-                <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Community</h4>
+                <div className="p-4 border border-purple-200 rounded-lg bg-purple-50">
+                  <h4 className="font-bold mb-2 text-purple-800">Community</h4>
                   <p>Building connections and fostering conversations about digital inclusion.</p>
                 </div>
                 
-                <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Advocacy</h4>
+                <div className="p-4 border border-purple-200 rounded-lg bg-purple-50">
+                  <h4 className="font-bold mb-2 text-purple-800">Advocacy</h4>
                   <p>Raising awareness and promoting the importance of accessible design.</p>
                 </div>
                 
-                <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Empowerment</h4>
+                <div className="p-4 border border-purple-200 rounded-lg bg-purple-50">
+                  <h4 className="font-bold mb-2 text-purple-800">Empowerment</h4>
                   <p>Providing tools and knowledge to help others create inclusive experiences.</p>
                 </div>
               </div>
