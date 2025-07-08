@@ -18,7 +18,7 @@ const Hero = () => {
               </span> the Standard
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-700">
-              We empower businesses to create inclusive digital environments through expertise, education, and innovation.
+              Accessibly Speaking is a passion project raising awareness about digital inclusion and sharing free resources to support accessible design for everyone.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button 
