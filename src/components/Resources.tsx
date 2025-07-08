@@ -1,4 +1,3 @@
-
 import { FileText, Book, Video, Link as LinkIcon, GraduationCap, Award, Wrench, Monitor, Globe, Twitter, Calendar, Briefcase } from "lucide-react";
 
 const resourceCategories = [
@@ -184,31 +183,35 @@ const Resources = () => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {resourceCategories.map((category) => (
-            <div 
-              key={category.title}
-              className="p-6 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
-            >
-              <div className="flex items-center mb-4">
-                <h3 className="text-lg font-bold">{category.title}</h3>
+          {resourceCategories.map((category) => {
+            const IconComponent = category.icon;
+            return (
+              <div 
+                key={category.title}
+                className="p-6 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]"
+              >
+                <div className="flex items-center mb-4">
+                  <IconComponent className="w-6 h-6 mr-3" />
+                  <h3 className="text-lg font-bold">{category.title}</h3>
+                </div>
+                <p className="mb-4 text-sm">{category.description}</p>
+                <div className="space-y-2">
+                  {category.resources.map((resource) => (
+                    <a 
+                      key={resource.title}
+                      href={resource.link}
+                      className="block py-2 px-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors text-sm"
+                      target={resource.link.startsWith('http') ? '_blank' : undefined}
+                      rel={resource.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    >
+                      <span className="mr-2">→</span>
+                      <span>{resource.title}</span>
+                    </a>
+                  ))}
+                </div>
               </div>
-              <p className="mb-4 text-sm">{category.description}</p>
-              <div className="space-y-2">
-                {category.resources.map((resource) => (
-                  <a 
-                    key={resource.title}
-                    href={resource.link}
-                    className="block py-2 px-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors text-sm"
-                    target={resource.link.startsWith('http') ? '_blank' : undefined}
-                    rel={resource.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  >
-                    <span className="mr-2">→</span>
-                    <span>{resource.title}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
         
         <div className="mt-12 p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
