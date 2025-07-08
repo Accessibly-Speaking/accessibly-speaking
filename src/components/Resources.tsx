@@ -1,5 +1,5 @@
 
-import { FileText, Book, Video, Link as LinkIcon, GraduationCap, Award, Tools, Monitor, Globe, Twitter, Calendar, Briefcase } from "lucide-react";
+import { FileText, Book, Video, Link as LinkIcon, GraduationCap, Award, Wrench, Monitor, Globe, Twitter, Calendar, Briefcase } from "lucide-react";
 
 const resourceCategories = [
   {
@@ -94,7 +94,7 @@ const resourceCategories = [
   {
     title: "🛠️ Tools",
     description: "Free tools and browser extensions to help you evaluate and improve the accessibility of websites and applications.",
-    icon: Tools,
+    icon: Wrench,
     resources: [
       { title: "Accessibility Bookmarklets", link: "#" },
       { title: "Accessibility Insights", link: "#" },
