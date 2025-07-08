@@ -1,5 +1,5 @@
 
-import { Menu, Users, Handshake, CalendarDays } from "lucide-react";
+import { Menu, Users, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { useEffect, useState } from "react";
@@ -47,18 +47,13 @@ const Header = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="z-50 bg-white border-black border mt-2">
                 <DropdownMenuItem asChild>
-                  <a href="/volunteer" className="flex items-center gap-2 text-black hover:text-gray-700 w-full">
-                    <Users className="h-4 w-4" /> Volunteer
+                  <a href="/contribute" className="flex items-center gap-2 text-black hover:text-gray-700 w-full">
+                    <Users className="h-4 w-4" /> Contribute
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <a href="/partnerships" className="flex items-center gap-2 text-black hover:text-gray-700 w-full">
-                    <Handshake className="h-4 w-4" /> Partnerships
-                  </a>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <a href="/events" className="flex items-center gap-2 text-black hover:text-gray-700 w-full">
-                    <CalendarDays className="h-4 w-4" /> Events
+                  <a href="/community-events" className="flex items-center gap-2 text-black hover:text-gray-700 w-full">
+                    <CalendarDays className="h-4 w-4" /> Community Events
                   </a>
                 </DropdownMenuItem>
               </DropdownMenuContent>
@@ -91,14 +86,11 @@ const Header = () => {
             <div>
               <div className="text-black py-2 font-medium">Get Involved</div>
               <div className="pl-4 flex flex-col gap-2">
-                <a href="/volunteer" className="text-black hover:text-gray-700 transition-colors font-medium flex items-center gap-2 py-2" onClick={() => setMobileMenuOpen(false)}>
-                  <Users className="h-4 w-4" /> Volunteer
+                <a href="/contribute" className="text-black hover:text-gray-700 transition-colors font-medium flex items-center gap-2 py-2" onClick={() => setMobileMenuOpen(false)}>
+                  <Users className="h-4 w-4" /> Contribute
                 </a>
-                <a href="/partnerships" className="text-black hover:text-gray-700 transition-colors font-medium flex items-center gap-2 py-2" onClick={() => setMobileMenuOpen(false)}>
-                  <Handshake className="h-4 w-4" /> Partnerships
-                </a>
-                <a href="/events" className="text-black hover:text-gray-700 transition-colors font-medium flex items-center gap-2 py-2" onClick={() => setMobileMenuOpen(false)}>
-                  <CalendarDays className="h-4 w-4" /> Events
+                <a href="/community-events" className="text-black hover:text-gray-700 transition-colors font-medium flex items-center gap-2 py-2" onClick={() => setMobileMenuOpen(false)}>
+                  <CalendarDays className="h-4 w-4" /> Community Events
                 </a>
               </div>
             </div>
