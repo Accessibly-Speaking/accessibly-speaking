@@ -1,35 +1,35 @@
 
-import { Shield, FileText, Users, Zap, Mail } from "lucide-react";
+import { BookOpen, Megaphone, Bot, FileText, Users } from "lucide-react";
 
-const services = [
+const initiatives = [
   {
-    title: "Accessibility Audits",
-    description: "Comprehensive assessment of digital platforms for compliance with WCAG, ADA, and Section 508 standards.",
-    icon: Shield,
+    title: "Free Accessibility Resources",
+    description: "Curated articles, toolkits, and guides for creating accessible digital experiences available to everyone.",
+    icon: BookOpen,
     color: "bg-gray-100"
   },
   {
-    title: "Document Remediation",
-    description: "Converting documents into accessible formats, ensuring PDFs and other materials meet accessibility standards.",
+    title: "Community Advocacy",
+    description: "Promoting awareness about the importance of digital accessibility through content and social media campaigns.",
+    icon: Megaphone,
+    color: "bg-gray-100"
+  },
+  {
+    title: "AI-Powered Experiments",
+    description: "Exploring the intersection of AI and accessibility through free, public tools and demos for the community.",
+    icon: Bot,
+    color: "bg-gray-100"
+  },
+  {
+    title: "Learning Materials",
+    description: "Practical guides and checklists for designers, developers, and content creators to improve accessibility.",
     icon: FileText,
     color: "bg-gray-100"
   },
   {
-    title: "Expert Consultations",
-    description: "Tailored guidance on implementing accessibility best practices for your organization's specific needs.",
-    icon: Mail,
-    color: "bg-gray-100"
-  },
-  {
-    title: "Training Resources",
-    description: "Accessible workshops and learning management system for hands-on accessibility training.",
+    title: "Educational Workshops",
+    description: "Free community workshops and learning sessions to spread accessibility knowledge and best practices.",
     icon: Users,
-    color: "bg-gray-100"
-  },
-  {
-    title: "AI-Powered Solutions",
-    description: "Innovative tools to streamline and simplify your accessibility compliance process.",
-    icon: Zap,
     color: "bg-gray-100"
   }
 ];
@@ -41,21 +41,21 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">What We Do</h2>
           <p className="text-xl max-w-3xl mx-auto">
-            We provide comprehensive solutions to ensure your digital platforms are accessible to everyone.
+            We create and share free resources to make digital accessibility knowledge available to everyone.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => (
+          {initiatives.map((initiative) => (
             <div 
-              key={service.title} 
+              key={initiative.title} 
               className="p-6 border-2 border-black rounded-lg bg-white hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all duration-300"
             >
-              <div className={`${service.color} p-4 rounded-full inline-flex mb-6`}>
-                <service.icon className="h-8 w-8 text-black" aria-hidden="true" />
+              <div className={`${initiative.color} p-4 rounded-full inline-flex mb-6`}>
+                <initiative.icon className="h-8 w-8 text-black" aria-hidden="true" />
               </div>
-              <h3 className="text-xl font-bold mb-3">{service.title}</h3>
-              <p>{service.description}</p>
+              <h3 className="text-xl font-bold mb-3">{initiative.title}</h3>
+              <p>{initiative.description}</p>
             </div>
           ))}
         </div>
