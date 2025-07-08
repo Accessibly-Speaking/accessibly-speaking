@@ -9,27 +9,30 @@ const About = () => {
           <div>
             <h2 className="text-4xl font-bold mb-8">About Us</h2>
             <p className="text-lg mb-6">
-              Accessibly Speaking is a nonprofit organization dedicated to advancing inclusivity
-              through innovative accessibility services. We aim to empower businesses and professionals with tailored
-              solutions to meet accessibility standards and foster inclusive environments.
+              Accessibly Speaking is a personal initiative focused on promoting digital accessibility 
+              awareness and fostering an inclusive web for all. Through educational content, curated 
+              resources, and community conversations, this project aims to make accessibility knowledge 
+              approachable and actionable for everyone.
             </p>
             <p className="text-lg mb-8">
-              By providing consultations, audits, and training resources, we help organizations enhance accessibility,
-              ensuring equal access for individuals with disabilities while mitigating compliance risks.
+              By sharing insights, creating learning materials, and building connections within the 
+              accessibility community, we work to break down barriers and empower individuals to 
+              create more inclusive digital experiences. Our mission is to make accessibility 
+              education accessible to all.
             </p>
             
             <div className="space-y-4">
               <div className="flex items-start">
                 <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
-                <p>Empowered businesses with accessibility solutions</p>
+                <p>Shared free resources and educational content with the community</p>
               </div>
               <div className="flex items-start">
                 <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
-                <p>Expert team with years of experience in accessibility</p>
+                <p>Passionate advocate with hands-on experience in digital accessibility</p>
               </div>
               <div className="flex items-start">
                 <Check className="h-6 w-6 text-black mr-3 mt-1 flex-shrink-0" />
-                <p>Comprehensive approach addressing all types of accessibility needs</p>
+                <p>Community-focused approach to spreading accessibility awareness</p>
               </div>
             </div>
           </div>
@@ -40,23 +43,23 @@ const About = () => {
               
               <div className="space-y-6">
                 <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Inclusion</h4>
-                  <p>Ensuring equal access to digital resources for all.</p>
+                  <h4 className="font-bold mb-2">Education</h4>
+                  <p>Making accessibility knowledge accessible and understandable for everyone.</p>
                 </div>
                 
                 <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Innovation</h4>
-                  <p>Leveraging advanced technology to enhance accessibility.</p>
+                  <h4 className="font-bold mb-2">Community</h4>
+                  <p>Building connections and fostering conversations about digital inclusion.</p>
                 </div>
                 
                 <div className="p-4 border border-gray-200 rounded-lg">
                   <h4 className="font-bold mb-2">Advocacy</h4>
-                  <p>Promoting awareness and action on accessibility issues.</p>
+                  <p>Raising awareness and promoting the importance of accessible design.</p>
                 </div>
                 
                 <div className="p-4 border border-gray-200 rounded-lg">
-                  <h4 className="font-bold mb-2">Collaboration</h4>
-                  <p>Partnering with stakeholders to drive systemic change.</p>
+                  <h4 className="font-bold mb-2">Empowerment</h4>
+                  <p>Providing tools and knowledge to help others create inclusive experiences.</p>
                 </div>
               </div>
             </div>
