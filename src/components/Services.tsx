@@ -6,31 +6,31 @@ const initiatives = [
     title: "Free Accessibility Resources",
     description: "Curated articles, toolkits, and guides for creating accessible digital experiences available to everyone.",
     icon: BookOpen,
-    color: "bg-purple-100"
+    color: "bg-gray-100"
   },
   {
     title: "Community Advocacy",
     description: "Promoting awareness about the importance of digital accessibility through content and social media campaigns.",
     icon: Megaphone,
-    color: "bg-purple-100"
+    color: "bg-gray-100"
   },
   {
     title: "AI-Powered Experiments",
     description: "Exploring the intersection of AI and accessibility through free, public tools and demos for the community.",
     icon: Bot,
-    color: "bg-purple-100"
+    color: "bg-gray-100"
   },
   {
     title: "Learning Materials",
     description: "Practical guides and checklists for designers, developers, and content creators to improve accessibility.",
     icon: FileText,
-    color: "bg-purple-100"
+    color: "bg-gray-100"
   },
   {
     title: "Educational Workshops",
     description: "Free community workshops and learning sessions to spread accessibility knowledge and best practices.",
     icon: Users,
-    color: "bg-purple-100"
+    color: "bg-gray-100"
   }
 ];
 
@@ -49,10 +49,10 @@ const Services = () => {
           {initiatives.map((initiative) => (
             <div 
               key={initiative.title} 
-              className="p-6 border-2 border-black rounded-lg bg-white hover:shadow-custom hover:border-purple-600 transition-all duration-300"
+              className="p-6 border-2 border-black rounded-lg bg-white hover:shadow-custom hover:border-gray-600 transition-all duration-300"
             >
-              <div className={`${initiative.color} border border-purple-600 p-4 rounded-full inline-flex mb-6`}>
-                <initiative.icon className="h-8 w-8 text-purple-700" aria-hidden="true" />
+              <div className={`${initiative.color} border border-black p-4 rounded-full inline-flex mb-6`}>
+                <initiative.icon className="h-8 w-8 text-black" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold mb-3">{initiative.title}</h3>
               <p>{initiative.description}</p>
