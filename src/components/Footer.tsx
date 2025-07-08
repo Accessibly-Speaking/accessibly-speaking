@@ -1,4 +1,3 @@
-
 import { Mail, Github, Linkedin, X, ArrowUpRight } from "lucide-react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
@@ -13,9 +12,6 @@ const Footer = () => {
               <img src="/lovable-uploads/ac36a044-0194-4cb1-9928-785eeb23c3f9.png" alt="" className="h-10 w-10 bg-white p-1 rounded" />
               <span className="text-xl font-semibold text-white">Accessibly Speaking</span>
             </div>
-            <p className="text-gray-300 mb-6">
-              Empowering businesses to create inclusive digital environments through expertise, education, and innovation.
-            </p>
             <div className="flex space-x-4">
               <a 
                 href="https://x.com/AccessiblyS" 
