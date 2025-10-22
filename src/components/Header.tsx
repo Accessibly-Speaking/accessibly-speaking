@@ -28,10 +28,11 @@ const Header = () => {
           
           {/* Desktop Nav */}
           <nav className="hidden md:flex gap-6 items-center" aria-label="Main navigation">
-            <a href="#services" className="text-black hover:text-gray-700 transition-colors font-medium">What We Do</a>
+            <a href="#services" className="text-black hover:text-gray-700 transition-colors font-medium">Focus Areas</a>
             <a href="#about" className="text-black hover:text-gray-700 transition-colors font-medium">About</a>
-            <a href="#mission" className="text-black hover:text-gray-700 transition-colors font-medium">Mission</a>
+            <a href="#purpose" className="text-black hover:text-gray-700 transition-colors font-medium">Purpose</a>
             <a href="#resources" className="text-black hover:text-gray-700 transition-colors font-medium">Resources</a>
+            <a href="https://dev.to/accessibly_speaking" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700 transition-colors font-medium">Blog</a>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <button
@@ -77,10 +78,11 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white w-full py-4 px-4 shadow-lg absolute top-20 left-0 z-50">
           <nav className="flex flex-col space-y-4" aria-label="Mobile navigation">
-            <a href="#services" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>What We Do</a>
+            <a href="#services" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Focus Areas</a>
             <a href="#about" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>About</a>
-            <a href="#mission" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Mission</a>
+            <a href="#purpose" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Purpose</a>
             <a href="#resources" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Resources</a>
+            <a href="https://dev.to/accessibly_speaking" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700 transition-colors font-medium py-2" onClick={() => setMobileMenuOpen(false)}>Blog</a>
             {/* Get Involved submenu */}
             <div>
               <div className="text-black py-2 font-medium">Get Involved</div>

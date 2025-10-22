@@ -174,7 +174,8 @@ const resourceCategories = [
     description: "Find job opportunities in the accessibility and inclusive design space.",
     icon: Briefcase,
     resources: [
-      { title: "A11Y Jobs", link: "https://www.a11yjobs.com/" }
+      { title: "A11Y Jobs", link: "https://www.a11yjobs.com/" },
+      { title: "Remote A11y Jobs", link: "https://www.remotea11y.com/" }
     ]
   }
 ];
@@ -234,7 +235,7 @@ const Resources = () => {
         <div className="mt-12 p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] max-w-4xl mx-auto">
           <h3 className="text-2xl font-bold mb-4 text-center">Submit a Resource</h3>
           <p className="text-lg text-center mb-6">
-            Help us expand our web accessibility resources by contributing to our GitHub repository.
+            Help expand our web accessibility resources by contributing to our GitHub repository.
           </p>
           <div className="text-center">
             <a 

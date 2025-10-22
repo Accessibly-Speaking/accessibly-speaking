@@ -3,22 +3,22 @@ import { Target } from "lucide-react";
 
 const Mission = () => {
   return (
-    <section id="mission" className="py-20 px-4 bg-white text-black">
+    <section id="purpose" className="py-20 px-4 bg-white text-black">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <div className="bg-gray-100 border border-black p-4 rounded-full inline-flex mb-4">
             <Target className="h-12 w-12 text-black" />
           </div>
-          <h2 className="text-4xl font-bold mb-4">Our Mission & Vision</h2>
+          <h2 className="text-4xl font-bold mb-4">Purpose & Objectives</h2>
           <p className="text-xl max-w-3xl mx-auto">
-            We're working toward a future where digital accessibility is the norm,
+            Working toward a future where digital accessibility is the norm,
             creating an inclusive web where everyone can participate fully in our digital world.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12">
           <div className="p-8 border-2 border-black rounded-lg bg-white shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-            <h3 className="text-2xl font-bold mb-4">Mission</h3>
+            <h3 className="text-2xl font-bold mb-4">Purpose</h3>
             <p className="text-lg mb-4">
               To promote digital accessibility awareness and provide practical resources that 
               empower individuals and organizations to build inclusive digital spaces.

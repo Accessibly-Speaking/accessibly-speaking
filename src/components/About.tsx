@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-8">About Us</h2>
+            <h2 className="text-4xl font-bold mb-8">About</h2>
             <p className="text-lg mb-6">
               Accessibly Speaking is a personal initiative focused on promoting digital accessibility 
               awareness and fostering an inclusive web for all. Through educational content, curated 
@@ -39,7 +39,7 @@ const About = () => {
           
           <div className="relative">
             <div className="h-full w-full bg-white border-2 border-black rounded-lg p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-              <h3 className="text-2xl font-bold mb-6">Our Core Values</h3>
+              <h3 className="text-2xl font-bold mb-6">Core Values</h3>
               
               <div className="space-y-6">
                 <div className="p-4 border border-gray-300 rounded-lg bg-gray-50">
@@ -59,7 +59,7 @@ const About = () => {
                 
                 <div className="p-4 border border-gray-300 rounded-lg bg-gray-50">
                   <h4 className="font-bold mb-2 text-black">Empowerment</h4>
-                  <p>Providing tools and knowledge to help others create inclusive experiences.</p>
+                  <p>Sharing tools and knowledge to help others create inclusive experiences.</p>
                 </div>
               </div>
             </div>
