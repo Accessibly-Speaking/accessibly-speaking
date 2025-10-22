@@ -12,13 +12,13 @@ const Hero = () => {
               id="hero-heading"
               className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight"
             >
-              Making Digital <span className="relative inline-block">
+              Speak <span className="relative inline-block">
                 <span className="absolute -top-1 -left-1 w-full h-full bg-gray-200 -z-10 transform -skew-x-3 skew-y-1 rounded"></span>
                 <span className="relative z-10">Accessibility</span>
-              </span> the Standard
+              </span>. Educate. Advocate. Include.
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-700">
-              Accessibly Speaking is a passion project raising awareness about digital inclusion and sharing free resources to support accessible design for everyone.
+              Accessibly Speaking is a passion project born from a love for digital accessibility. It's about creating awareness, sharing knowledge, and reminding us that inclusion starts with education.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button 

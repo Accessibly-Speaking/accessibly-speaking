@@ -1,5 +1,5 @@
 
-import { BookOpen, Megaphone, Bot, FileText, Users } from "lucide-react";
+import { BookOpen, Megaphone, Bot } from "lucide-react";
 
 const initiatives = [
   {
@@ -19,18 +19,6 @@ const initiatives = [
     description: "Exploring the intersection of AI and accessibility through free, public tools and demos for the community.",
     icon: Bot,
     color: "bg-gray-100"
-  },
-  {
-    title: "Learning Materials",
-    description: "Practical guides and checklists for designers, developers, and content creators to improve accessibility.",
-    icon: FileText,
-    color: "bg-gray-100"
-  },
-  {
-    title: "Educational Workshops",
-    description: "Free community workshops and learning sessions to spread accessibility knowledge and best practices.",
-    icon: Users,
-    color: "bg-gray-100"
   }
 ];
 
@@ -39,7 +27,7 @@ const Services = () => {
     <section id="services" className="py-20 px-4 bg-white text-black">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">What We Do</h2>
+          <h2 className="text-4xl font-bold mb-4">Focus Areas</h2>
           <p className="text-xl max-w-3xl mx-auto">
             We create and share free resources to make digital accessibility knowledge available to everyone.
           </p>
